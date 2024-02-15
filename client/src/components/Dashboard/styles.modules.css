@@ -1,0 +1,194 @@
+.conversationItem{
+    background: #fff !important;
+    border-bottom: 1px solid black !important;
+    padding: 12px !important;
+    cursor: pointer !important;
+}
+.checkBox{
+    display: flex;
+    justify-content: center;
+}
+.itemContent{
+    padding:10px !important;
+}
+.pl5{
+    padding-left:5px !important;
+}
+.containers{
+    height : 100vh;
+}
+.conversationHeader{
+    display:flex;
+    justify-content: space-around;
+    align-items: end;
+    background-color: azure;
+}
+
+.refreshBtn{
+    width: auto !important;
+    background-color: transparent;;
+}
+.chatUserName{
+    background-color: #fff !important;
+    padding-left:10px !important;
+    border-bottom: 1px dashed transparent !important;
+    display:flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.profileImg{
+    height:100px !important;
+    width:125px !important;
+    border-radius: 50% !important;
+}
+.sectionTop{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px !important;
+    background-color: #fff !important;
+    margin:0px !important;
+    border-radius: 5px !important;
+}
+.userDetails{
+    display: flex !important;
+    justify-content: center !important;
+}
+.userName{
+    text-align:center;
+}
+.userStatus{
+    font-weight: 600 !important;
+    font-size:1rem !important;
+    text-align: center;
+}
+.callBtn{
+    width: 100px !important;
+    background-color: transparent !important;
+    color : #000 !important;
+    border-radius: 5px;
+    border : 1px solid gray;
+    padding: 0px !important;
+    height:30px !important;
+    margin : 20px 10px !important;
+}
+.profileBtn{
+    width: 100px !important;
+    background-color: transparent !important;
+    color : #000 !important;
+    border-radius: 5px;
+    border : 1px solid gray;
+    padding: 0px !important;
+    height:30px !important;
+    margin : 20px 10px !important;
+}
+.viewMoreBtn{
+    width: 150px !important;
+    background-color: transparent !important;
+    color : #1b1681 !important;
+    border-radius: 5px;
+    padding: 0px !important;
+    margin : 10px 0px !important;
+    font-weight: 500 !important;
+}
+.showLessBtn{
+        width: 100px !important;
+        background-color: transparent !important;
+        color : #1b1681 !important;
+        border-radius: 5px;
+        padding: 0px !important;
+        margin : 10px 0px !important;
+        font-weight: 500 !important;
+    
+}
+.customerDetails{
+    padding: 10px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin:20px 0px !important;
+}
+
+.userChatsText{
+   display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   margin: 15px 0px !important;
+   border-radius: 5px !important;
+   text-align: right !important;
+   padding : 0px !important;
+}
+  
+  .timeStamp {
+    font-size: 0.8rem;
+    color: #666; 
+    margin-left: 10px; 
+  }
+  
+.customerChatsText{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    
+    margin:15px 0px !important;
+    border-radius: 5px !important;
+    padding : 0px !important;
+}
+.chatContainer{
+    background: #f7f0f0f4 !important;
+    border-radius : 15px !important;
+    overflow-y:auto !important;
+}
+.msgDiv{
+    width : 570px !important;
+    position: absolute;
+    bottom : 30px;
+    margin-left:7px;
+}
+.msgInput{
+    border: 1px solid darkblue;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100% !important;
+}
+.userChatsText img,
+.customerChatsText img {
+    /* margin-right: 10px;  */
+    flex-shrink: 0; 
+  }
+  
+  .userChatsText span,
+  .customerChatsText span {
+    background-color: #e6e6e6;
+    padding: 8px;
+    border-radius: 10px; 
+    word-wrap: break-word; 
+  }
+
+  .chatsIconUsers{
+    width:auto !important;
+    padding:0px !important;
+  }
+  .navIcon{
+    width:70px !important;
+    margin:auto !important;
+    margin-bottom : 20px !important;
+  }
+  .chatIconUsersImg{
+    height: 45px !important;
+    width: 50px !important;
+    padding:5px !important; 
+    border-radius : 50% !important; 
+  }
+  .currentConversation{
+    background: rgba(255,255,255,0.9) !important;
+  }
+  .userEmail{
+    word-wrap: break-word !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+  }
+  .loaderImg{
+    display: flex;
+    justify-content: center;
+  }

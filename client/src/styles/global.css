@@ -1,0 +1,31 @@
+:root {
+	--font-family: 'Inter', 'Roboto Mono', monospace;
+	--font-size: 1rem;
+	--font-size-small: 0.875em;
+	--font-line-height: 1.5;
+	--font-color: #050d0a;
+	--font-weight: 400;
+	--seed: #eee;
+	--letter-spacing: 0.02em;
+	--font-variation-settings: 'slnt' 0;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: var(--font-family);
+	font-size: var(--font-size);
+	line-height: var(--font-line-height);
+	font-weight: var(--font-weight);
+	color: var(--font-color);
+	-webkit-text-size-adjust: 100%;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	background-color: #f3f8ff;
+	letter-spacing: var(--letter-spacing);
+	font-variation-settings: var(--font-variation-settings);
+}
